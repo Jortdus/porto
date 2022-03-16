@@ -1,7 +1,153 @@
-.root {
-    height: 100%;
+@font-face {
+    font-family: "ShareTechMono";
+    src: local("ShareTechMono"),
+        url("./fonts/ShareTechMono-Regular.ttf") format("truetype");
+}
+
+* {
+    font-family: "ShareTechMono";
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background-color: rgb(255, 255, 255);
+    color: black;
+    padding: 1vh 2vw 0 2vw;
+}
+
+h1 {
+    margin: 1vh 0 1vh 0;
+    margin-bottom: 4vh;
+}
+
+p {
+    max-width: 60%;
+}
+
+small {
+    margin: 1vh 0 2vh 0;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+div.About,
+div.Naturalis,
+div.Three-d {
+    min-height: 30vh;
+    margin: 5vh 0;
 }
 
 .Header {
-    height: 100vh;
+    margin: 6vh 0;
+    display: flex;
+    height: 8vh;
+    justify-content: space-between;
+}
+
+.Header nav {
+    display: flex;
+}
+
+@media (max-width: 480px) {
+    html {
+        padding: 1vh 6vw 0 6vw;
+    }
+
+    .Header {
+        padding-top: 2vh;
+        display: block;
+    }
+
+    .header-link {
+        display: none;
+    }
+
+    .iframe-3d {
+        width: 100%;
+        margin-top: 3vh;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    a {
+        margin: 1vh 0 1vh 0;
+    }
+
+    p {
+        max-width: 100%;
+    }
+
+    #interpunct {
+        margin: 0 2.5vw;
+    }
+
+    .live-project {
+        text-align: center;
+    }
+
+    .Footer {
+        text-align: center;
+    }
+
+    #about-img {
+        max-width: 100%;
+        padding-top: 5vh;
+    }
+}
+
+@media (min-width: 481px) {
+    #about-text-img p {
+        max-width: 50%;
+    }
+
+    #about-text-img {
+        display: flex;
+        justify-content: space-between;
+        max-width: 90%;
+    }
+
+    #about-img {
+        max-width: 30vw;
+    }
+}
+
+.iframe-3d {
+    margin: 0 auto;
+}
+
+.header-link {
+    color: black;
+    text-decoration: none;
+    font-size: 2em;
+    padding-left: 4vw;
+}
+
+.Three-d {
+    display: flex;
+    flex-direction: column;
+}
+
+.Naturalis {
+    display: flex;
+    flex-direction: column;
+}
+
+.Footer {
+    padding-bottom: 4vh;
+}
+
+#interpunct {
+    margin: 0 1vw;
+}
+
+.live-project {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 3vh;
 }
