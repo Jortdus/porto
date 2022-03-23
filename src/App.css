@@ -13,16 +13,21 @@
 html {
     background-color: rgb(255, 255, 255);
     color: black;
-    padding: 1vh 2vw 0 2vw;
 }
 
 h1 {
-    margin: 1vh 0 1vh 0;
+    margin: 2vh 0 1vh 0;
     margin-bottom: 4vh;
+}
+
+h2 {
+    margin-bottom: 4vh;
+    margin-top: 2vh;
 }
 
 p {
     max-width: 60%;
+    font-size: 1.2em;
 }
 
 small {
@@ -34,24 +39,50 @@ a {
     text-decoration: none;
 }
 
-div.About,
-div.Naturalis,
-div.Three-d {
+ul {
+    margin-bottom: 4vh;
+}
+
+li {
+    margin: 1vh 0 1vh 4vh;
+    font-size: 1em;
+}
+
+.Header,
+.About,
+.Three-d,
+.Naturalis {
     min-height: 30vh;
-    margin: 5vh 0;
+    padding: 1vh 2vw 0 4vw;
+}
+
+.About,
+.Naturalis {
+    background-color: rgb(245, 255, 255);
+}
+
+div.About {
+    min-height: 75vh;
 }
 
 .Header {
-    margin: 6vh 0;
+    margin: 2vh 2vw;
     display: flex;
-    height: 8vh;
+    min-height: 2vh;
     justify-content: space-between;
+    flex-direction: column;
 }
 
 .Header nav {
     display: flex;
 }
 
+.Header h1 {
+    margin-bottom: 8vh;
+    font-size: 4em;
+}
+
+/* max width */
 @media (max-width: 480px) {
     html {
         padding: 1vh 6vw 0 6vw;
@@ -73,6 +104,7 @@ div.Three-d {
 
     h1 {
         text-align: center;
+        margin: 3.5vh 0 2vh 0;
     }
 
     a {
@@ -101,24 +133,26 @@ div.Three-d {
     }
 }
 
+/* min width */
 @media (min-width: 481px) {
     #about-text-img p {
-        max-width: 50%;
+        max-width: 90%;
     }
 
-    #about-text-img {
+    #Wrapper {
         display: flex;
         justify-content: space-between;
         max-width: 90%;
     }
 
     #about-img {
-        max-width: 30vw;
+        max-width: 40vw;
     }
 }
 
 .iframe-3d {
     margin: 0 auto;
+    padding-bottom: 4vh;
 }
 
 .header-link {
@@ -139,7 +173,7 @@ div.Three-d {
 }
 
 .Footer {
-    padding-bottom: 4vh;
+    padding: 2vh 2vw 2vh 2vw;
 }
 
 #interpunct {

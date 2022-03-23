@@ -9,9 +9,15 @@ function Project3D() {
 
             <p>
                 Data visualization created with React and Three.js using a RIVM
-                dataset{" "}
+                dataset . During this assignment we were challenged to create a
+                visualization based on a large dataset. I decided to make use of
+                React and Three.js and challenge myself to a libary that I had
+                never used before.
             </p>
-            <small>Application is not optimized for mobile devices*</small>
+            <small>
+                Application is not optimized for mobile devices and might not
+                work optimally*
+            </small>
             <a
                 className="live-project"
                 href="https://jortdus.github.io/frontend-application/"
