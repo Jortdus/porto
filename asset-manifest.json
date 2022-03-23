@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/porto/static/css/main.e029459e.css",
+    "main.js": "/porto/static/js/main.b51d30de.js",
+    "static/js/787.5242c071.chunk.js": "/porto/static/js/787.5242c071.chunk.js",
+    "static/media/ShareTechMono-Regular.ttf": "/porto/static/media/ShareTechMono-Regular.d753b5dc50d171ecc94b.ttf",
+    "static/media/stock.jpg": "/porto/static/media/stock.7fe252d729aed263ae27.jpg",
+    "index.html": "/porto/index.html",
+    "main.e029459e.css.map": "/porto/static/css/main.e029459e.css.map",
+    "main.b51d30de.js.map": "/porto/static/js/main.b51d30de.js.map",
+    "787.5242c071.chunk.js.map": "/porto/static/js/787.5242c071.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e029459e.css",
+    "static/js/main.b51d30de.js"
+  ]
+}
