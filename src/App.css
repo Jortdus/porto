@@ -86,6 +86,7 @@ div.About {
 @media (max-width: 480px) {
     html {
         padding: 1vh 6vw 0 6vw;
+        overflow: hidden;
     }
 
     .Header {
